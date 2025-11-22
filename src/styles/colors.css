@@ -1,0 +1,12 @@
+/* Light color palette variables for the app */
+:root {
+  --bg: #f7f9fc;
+  --surface: #ffffff;
+  --card: #ffffff;
+  --primary: #2563eb; /* blue */
+  --accent: #10b981; /* green */
+  --muted: #6b7280; /* gray-500 */
+  --text: #0f172a; /* slate-900 */
+  --subtle: #94a3b8; /* slate-400 */
+  --border: rgba(15, 23, 42, 0.08);
+}
