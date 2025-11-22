@@ -16,6 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:specs": "react-scripts test --watchAll=false --testMatch \"<rootDir>/src/specs/**/*.test.js\"",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
