@@ -2,9 +2,7 @@ name: spec-tests
 
 on:
   pull_request:
-    branches: [ master ]
   push:
-    branches: [ master ]
 
 jobs:
   run-spec-tests:
