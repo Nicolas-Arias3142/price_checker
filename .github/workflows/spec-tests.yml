@@ -1,7 +1,6 @@
 name: spec-tests
 
 on:
-  pull_request:
   push:
 
 jobs:
