@@ -1,0 +1,24 @@
+name: spec-tests
+
+on:
+  push:
+
+jobs:
+  run-spec-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies (client)
+        run: npm ci --prefix client
+
+      - name: Run spec tests (client)
+        run: npm run test:specs --prefix client

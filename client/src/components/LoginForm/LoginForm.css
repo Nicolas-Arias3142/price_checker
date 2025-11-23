@@ -1,0 +1,119 @@
+.login-form .form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1.2em 2em 1.2em 2em;
+  width: 480px;
+  max-width: 92vw;
+  margin: 0 auto;
+  background-color: #171717;
+  border-radius: 25px;
+}
+
+.login-form #heading {
+  text-align: center;
+  margin: 2em;
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+}
+
+.login-form .field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 25px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #171717;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.login-form .input-icon {
+  height: 1.3em;
+  width: 1.3em;
+  fill: white;
+}
+
+.login-form .input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #d3d3d3;
+}
+
+.login-form .error {
+  color: #ff6b6b;
+  font-size: 0.85em;
+  padding-left: 0.5em;
+}
+
+/* Buttons container: center and wrap responsively */
+.login-form .form .btn {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap; /* allow buttons to wrap on narrow screens */
+  margin-top: 2.5em;
+}
+
+.login-form .button1,
+.login-form .button2 {
+  .login-form {
+    position: relative;
+  }
+  .login-form .back-btn {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: transparent;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  .login-form .back-btn:focus {
+    outline: 2px solid rgba(255, 255, 255, 0.12);
+  }
+  padding: 0.5em 1.1em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: 0.16s ease-in-out;
+  background-color: #252525;
+  color: white;
+  /* flexible sizing: grow/shrink with a sensible base width */
+  flex: 1 1 160px; /* allow buttons to share available space and wrap */
+  min-width: 120px;
+  max-width: 240px;
+}
+
+.login-form .button2 {
+  padding: 0.5em;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: 0.4s ease-in-out;
+  background-color: #252525;
+  color: white;
+}
+
+.login-form .button3 {
+  justify-self: center;
+  width: 37%;
+  margin-bottom: 3em;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: 0.4s ease-in-out;
+  background-color: #252525;
+  color: white;
+}
